@@ -1,7 +1,7 @@
 ---
 title: Examples of Using Container Images in Practice
-teaching: 20
-exercises: 0
+teaching: 10
+exercises: 15
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives
@@ -20,13 +20,6 @@ Now that we have learned the basics of working with Docker container images and 
 let's apply what we learned to an example workflow.
 
 You may choose one or more of the following examples to practice using containers.
-
-## Jekyll Website Example
-
-In this [Jekyll Website example](../instructors/e02-jekyll-lesson-example.md), you can practice
-rendering this lesson website on your computer using the Jekyll static website generator in a Docker container.
-Rendering the website in a container avoids a complicated software installation; instead of installing Jekyll and all the other tools needed to create the final website, all the work can be done in the container.
-Additionally, when you no longer need to render the website, you can easily and cleanly remove the software from your computer.
 
 ## GitHub Actions Example
 
